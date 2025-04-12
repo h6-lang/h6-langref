@@ -52,3 +52,9 @@ since code gets self-linked, it is possible to reference symbols that get declar
 ```
 a: { a }
 ```
+
+note that this also means that referencing undeclared symbols, even if the code that does so is never executed, will produce linker errors:
+```
+{ thisSymbolDoesNotExist } ;
+# this will produce a linker error
+```
