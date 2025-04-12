@@ -24,8 +24,8 @@ most operations don't work on both arrays and numbers!
 - duplicate: `1 2 .` -> `1 2 2`
 - pop: `1 2 ;` -> `1`
 - swap: `1 2 $` -> `2 1`
-- left-rotate 3: `1 2 3` -> `2 3 1`
-- right-rotate 3: `1 2 3` -> `3 1 2`
+- left-rotate 3: `1 2 3 l` -> `2 3 1`
+- right-rotate 3: `1 2 3 r` -> `3 1 2`
 - ref-planet: `1 2 3 4 &-v-v` -> `1 2 3 4  1 3`
 - less-than: `1 2 <` -> `1`
 - greater-than: `1 2 >` -> `0`
