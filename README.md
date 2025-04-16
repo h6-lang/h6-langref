@@ -34,6 +34,9 @@ most operations don't work on both arrays and numbers!
 - plus: `1 2 +` -> `3`
 - minus: `1 2 -` -> `-1`
 - multiply: `1 2 *` -> `2`
+- divide: `1 2 /` -> `0.5`
+- mod: `1 2 %` -> `1`
+- fraction: `3.25 fract` -> `0.25`
 - select: `1 2 1 ?` -> `2`, and `1 2 0 ?` -> `1`
 - execute / unpack: `{1 2 3} !` -> `1 2 3`
 - pack: `1 _` -> `{1}` (works on arrays too)
