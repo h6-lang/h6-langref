@@ -47,6 +47,8 @@ most operations don't work on both arrays and numbers!
 - concat: `{1 2} {3} @+` -> `{1 2 3}`
   only works if both args are array
 - length: `{1 2 3} @*` -> `3`
+- materialize: `{1 2 + 4} [!]` -> `{3 4}`
+  note that the array gets executed in a seperate stack, so this is invalid: `1 2 {+ 4} [!]`
 - typeid: `100 typeid` -> `0`, and `{1 2 3} typeid` -> `1`
 - system: `system N` -> call system function N
 
