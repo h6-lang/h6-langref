@@ -13,7 +13,7 @@ Code is executed from the left to right, top to bottom.
 
 ## types
 there are only two types:
-- fixed point (16.16 bits) number
+- fixed point (q24.8 bits) number
 - array / bytecode / code block
 
 ## operations
